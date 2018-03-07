@@ -1,5 +1,5 @@
 ## RPi-CM3MB2 / RPi-CM3MB2Lのハードウェア仕様
-
+aaa
 |||
 |:-----|:-----|
 |名称| Raspberry Pi CM3キャリアボード<br>※RPi-CM3MB2Lは Raspberry Pi CM3 キャリアボード CM3Lite バンドル版|
