@@ -29,7 +29,7 @@ Push-Push式 microSDスロット。<br>
 ### 1-2. CAMERAコネクタ
 ![2](/Image/Board_pic/cm3mb2_02.png)
 
-Raspberry-pi標準のCAMERAモジュール接続用15pin FFCコネクタ。
+Raspberry-pi標準のCAMERAモジュール接続用15pin CSIコネクタ。
 
 ### 1-3. シャットダウン LED
 ![3](/Image/Board_pic/cm3mb2_03.png)
@@ -138,7 +138,8 @@ Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 ![15](/Image/Board_pic/cm3mb2_15.png)
 
 主電源切断時用 画面上の上側(＋)/下側(－)。<br>
-※電池は出荷時に装着済み。
+※電池は出荷時に装着済み。<br>
+不意の電源消失時にも安全に自動シャットダウンが実行され、その後の電源復帰でボタン操作なしに自動起動します。
 
 ### 1-16. RTCバックアップ用 CR2032 電池ホルダー
 ![16](/Image/Board_pic/cm3mb2_16.png)
@@ -155,7 +156,7 @@ Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 ### 1-18. DISPLAYコネクタ
 ![18](/Image/Board_pic/cm3mb2_18.png)
 
-Raspberry-pi標準のタッチパネルディスプレイ接続用15pin FFCコネクタ。
+Raspberry-pi標準のタッチパネルディスプレイ接続用15pin DSIコネクタ。
 
 ### 1-19. HDMI Standard Aコネクタ
 ![19](/Image/Board_pic/cm3mb2_19.png)
