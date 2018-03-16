@@ -21,28 +21,28 @@
 
 
 ### 1-1. microSDスロット
-![1](/Image/Board_pic/cm3mb2_01.png)
+![1](/Image/Board_pic/01.jpg)
 
 Push-Push式 microSDスロット。<br>
 ※ComputeModule使用時のみシステムドライブとして使用可能。
 
 ### 1-2. CAMERAコネクタ
-![2](/Image/Board_pic/cm3mb2_02.png)
+![2](/Image/Board_pic/02.jpg)
 
 Raspberry-pi標準のCAMERAモジュール接続用15pin CSIコネクタ。
 
 ### 1-3. シャットダウン LED
-![3](/Image/Board_pic/cm3mb2_03.png)
+![3](/Image/Board_pic/03.jpg)
 
 緑点灯：シャットダウンプロセス実行中。
 
 ### 1-4. ステータス LED
-![4](/Image/Board_pic/cm3mb2_04.png)
+![4](/Image/Board_pic/04.jpg)
 
 緑点滅：システムアクセス中。
 
 ### 1-5. 電源 LED
-![5](/Image/Board_pic/cm3mb2_05.png)
+![5](/Image/Board_pic/05.jpg)
 
 緑点灯：電源ON。<br>
 緑点滅(0.3秒間隔)：シャットダウン中。<br>
@@ -51,7 +51,7 @@ Raspberry-pi標準のCAMERAモジュール接続用15pin CSIコネクタ。
 赤点滅(1.0秒間隔)：充電中(電源OFF時)。<br>
 
 ### 1-6. 内部配線用 LED接続7PIN ZHコネクタ
-![6](/Image/Board_pic/cm3mb2_06.png)
+![6](/Image/Board_pic/06.jpg)
 
 1番 電源LEDの＋側<br>
 2番 電源LEDの－側<br>
@@ -62,34 +62,34 @@ Raspberry-pi標準のCAMERAモジュール接続用15pin CSIコネクタ。
 7番 シャットダウンLEDの－側<br>
 
 ### 1-7. USB Type A コネクタ
-![7](/Image/Board_pic/cm3mb2_07.png)
+![7](/Image/Board_pic/07.jpg)
 
 USB2.0ホストコネクタ(1ポート)。
 
 ### 1-8. 電源 ON / OFF 用スイッチ
-![8](/Image/Board_pic/cm3mb2_08.png)
+![8](/Image/Board_pic/08.jpg)
 
 ### 1-9. 内部配線用 電源スイッチ接続 3PIN PHコネクタ
-![9](/Image/Board_pic/cm3mb2_09.png)
+![9](/Image/Board_pic/09.jpg)
 
 1番 電源LED。<br>
 2番 電源ボタン入力(押すとGNDと接続)。<br>
 3番 電源GND。<br>
 
 ### 1-10. Li-ionバッテリー接続用 2PINコネクタ
-![10](/Image/Board_pic/cm3mb2_10.png)
+![10](/Image/Board_pic/10.jpg)
 
 バックアップ用Li-ion電池から電源供給。
 
 ### 1-11. 200PIN DDR-SODIMM ソケット
-![11](/Image/Board_pic/cm3mb2_11.png)
+![11](/Image/Board_pic/11.jpg)
 
 Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 ※RPi-CM3MB2にはCM3Liteが付属していません。<br>
 ※RPi-CM3MB2LにはCM3Liteが付属しています。(未装着)
 
 ### 1-12. 40PIN ピンヘッダー GPIOコネクタ
-![12](/Image/Board_pic/cm3mb2_12.png)
+![12](/Image/Board_pic/12.jpg)
 
 40PIN GPIOのピン配列と説明<br>
 ※ 備考欄に記述のないピンの仕様については[Raspberry Pi公式ページ](https://pinout.xyz/#)をご参照ください。
@@ -118,7 +118,7 @@ Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 |39|GND||40|SPI1 SCLK/GPIO 21||  
 
 ### 1-13. 8PIN ピンヘッダー 拡張GPIOコネクタ
-![13](/Image/Board_pic/cm3mb2_13.png)
+![13](/Image/Board_pic/13.jpg)
 
 8PIN GPIO拡張コネクタのピン配列と説明
 
@@ -130,63 +130,64 @@ Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 |7|GPIO 31|8|GND|
 
 ### 1-14. メイン基板接続用コネクタ	
-![14](/Image/Board_pic/cm3mb2_14.png)
+![14-a](/Image/Board_pic/14_a.jpg)
+![14-b](/Image/Board_pic/14_b.jpg)
 
 拡張基板接続用コネクタ。
 
 ### 1-15. バックアップ電源用Li-ion電池ホルダー
-![15](/Image/Board_pic/cm3mb2_15.png)
+![15](/Image/Board_pic/15.jpg)
 
 主電源切断時用 画面上の上側(＋)/下側(－)。<br>
 ※電池は出荷時に装着済み。<br>
 不意の電源消失時にも安全に自動シャットダウンが実行され、その後の電源復帰でボタン操作なしに自動起動します。
 
 ### 1-16. RTCバックアップ用 CR2032 電池ホルダー
-![16](/Image/Board_pic/cm3mb2_16.png)
+![16](/Image/Board_pic/16.jpg)
 
 電池ホルダーに付属のCR2032を接続することで、RTCをバックアップ。
 
 ### 1-17. USB micro-B 書込み設定用 3PINコネクタ
-![17](/Image/Board_pic/cm3mb2_17.png)
+![17](/Image/Board_pic/17.jpg)
 
 有効にした場合、USB micro-BからCompute Module3(※eMMCあり)の書込みが可能となります。<br>
 1番-2番 ショート: 有効<br>
 2番-3番 ショート: 無効<br>
 
 ### 1-18. DISPLAYコネクタ
-![18](/Image/Board_pic/cm3mb2_18.png)
+![18](/Image/Board_pic/18.jpg)
 
 Raspberry-pi標準のタッチパネルディスプレイ接続用15pin DSIコネクタ。
 
 ### 1-19. HDMI Standard Aコネクタ
-![19](/Image/Board_pic/cm3mb2_19.png)
+![19](/Image/Board_pic/19.jpg)
 
 HDMI Std. Aコネクタ。<br>
 ※Raspberry Piの仕様により最大1080p/60Hzまでとなります。
 
 ### 1-20. USB micro-Bコネクタ
-![20](/Image/Board_pic/cm3mb2_20.png)
+![20](/Image/Board_pic/20.jpg)
 
 「USB micro-B 書込み設定用 3PINコネクタ」が有効設定の場合、本ポートからCompute Module3(※eMMCあり)の書込みが可能となります。
 
 ### 1-21. USB Type A コネクタ
-![21](/Image/Board_pic/cm3mb2_21.png)
+![21](/Image/Board_pic/21.jpg)
 
 USB2.0ホストコネクタ(2ポート)。
 
 ### 1-22. LANポート
-![22](/Image/Board_pic/cm3mb2_22.png)
+![22](/Image/Board_pic/22.jpg)
 
 10/100BASE-TX対応 RJ45コネクタ。
 
 ### 1-23. DCジャック
-![23](/Image/Board_pic/cm3mb2_23.png)
+![23](/Image/Board_pic/23.jpg)
 
 電源入力用ジャック(DC +12V/3A センタープラス)。<br>
 適合プラグ：外形φ5.5 内径φ2.1。センター端子は音叉(フォーク)型。<br>
 
 ### 1-24. 内部配線用 DC12V 2PIN XHコネクタ
-![24](/Image/Board_pic/cm3mb2_24.png)
+![24](/Image/Board_pic/24.jpg)
 
 電源入力用コネクタ(DC +12V/3A)。<br>
 1番 DC12V<br>

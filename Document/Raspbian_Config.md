@@ -81,7 +81,7 @@ sudo nano /boot/config.txt と入力しファイルを編集します。
 
 dtoverlay=pi3-act-led,gpio=16  
 dtoverlay=gpio-poweroff,gpiopin=5  
-dtoverlay=i2c-rtc,ds3231  
+dtoverlay=i2c-rtc,mcp7941x 
 
 ![RTC_05](/Image/RTC_LED_pic/RTC_05.png)
 
