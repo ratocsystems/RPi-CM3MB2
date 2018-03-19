@@ -24,7 +24,7 @@
 ![1](/Image/Board_pic/01.jpg)
 
 Push-Push式 microSDスロット。<br>
-※ComputeModule使用時のみシステムドライブとして使用可能。
+※Compute Module Lite (eMMCなしモデル)使用時のみシステムドライブとして使用可能。
 
 ### 1-2. CAMERAコネクタ
 ![2](/Image/Board_pic/02.jpg)
