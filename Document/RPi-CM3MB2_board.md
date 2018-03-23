@@ -1,8 +1,8 @@
-## RPi-CM3MB2-PoE 各部名称と説明  
+## RPi-CM3MB2 各部名称と説明  
 ### 1. 基板構成  
 製品基板の各部名称は以下のとおりです。
 
-![board](/Image/Board_pic/CM3MB2-PoE_board.png)
+![board](/Image/Board_pic/CM3MB2_board.png)
 
 | No | 名称 | No | 名称 |
 |:-----:|:-----|:-----:|:-----|
@@ -12,7 +12,7 @@
 |7|USB Type A コネクタ|8|電源 ON / OFF 用スイッチ|
 |9|内部配線用 電源スイッチ接続 3PIN PHコネクタ|10|Li-ionバッテリー接続用 2PINコネクタ|
 |11|200PIN DDR-SODIMM ソケット|12|40PIN ピンヘッダー GPIOコネクタ|
-|13|8PIN ピンヘッダー 拡張GPIOコネクタ|||
+|13|8PIN ピンヘッダー 拡張GPIOコネクタ|14|メイン基板接続用コネクタ|
 |15|バックアップ電源用Li-ion電池ホルダー|16|RTCバックアップ用 CR2032 電池ホルダー|
 |17|USB micro-B 書込み設定用 3PINコネクタ|18|DISPLAYコネクタ|
 |19|HDMI Standard Aコネクタ|20|USB micro-Bコネクタ|USB2.0ホストコネクタ|
@@ -87,8 +87,8 @@ USB2.0ホストコネクタ(1ポート)。
 ![11](/Image/Board_pic/11.jpg)
 
 Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
-※RPi-CM3MB2-PoEにはCM3Liteが付属していません。<br>
-※RPi-CM3MB2L-PoEにはCM3Liteが付属しています。(未装着)
+※RPi-CM3MB2にはCM3Liteが付属していません。<br>
+※RPi-CM3MB2LにはCM3Liteが付属しています。(未装着)
 
 ### 1-12. 40PIN ピンヘッダー GPIOコネクタ
 ![12](/Image/Board_pic/12.jpg)
@@ -130,6 +130,12 @@ Raspberry Pi Compute Module 3/ 3 Lite 装着用ソケット。<br>
 |3|I2C SCL2 / GPIO 29|4|USB D－|
 |5|GPIO 30|6|USB D＋|
 |7|GPIO 31|8|GND|
+
+### 1-14. メイン基板接続用コネクタ	
+![14-a](/Image/Board_pic/14_a.jpg)
+![14-b](/Image/Board_pic/14_b.jpg)
+
+拡張基板接続用コネクタ。
 
 ### 1-15. バックアップ電源用Li-ion電池ホルダー
 ![15](/Image/Board_pic/15.jpg)
@@ -177,9 +183,7 @@ USB2.0ホストコネクタ(2ポート)。
 ### 1-22. LANポート
 ![22](/Image/Board_pic/22.jpg)
 
-100BASE-TX対応 RJ45コネクタ。  
-PoE Class 4（48V/25.5W)対応  
-※PoE 給電対応ハブに接続する必要があります。
+10/100BASE-TX対応 RJ45コネクタ。
 
 ### 1-23. DCジャック
 ![23](/Image/Board_pic/23.jpg)
