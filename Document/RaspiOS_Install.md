@@ -18,16 +18,16 @@ https://www.sdcard.org/jp/downloads/formatter_4/index.html
 
 Raspberry Pi Imagerを起動し、「Raspberry Piデバイス」「OS」「ストレージ」を選択し「次へ」をクリックします。  
 
-![Etcher01](/Image/Raspbian_pic/Etcher_01.png)  
+![RasPiInstall01](/Image/RasPiImager_pic/RasPiInstall_01.png)  
 
 事前にRapberry Piの設定をする場合は「設定を編集する」をクリックします。後から設定する場合は「いいえ」をクリックします。
 
-![Etcher02](/Image/Raspbian_pic/Etcher_02.png)  
+![RasPiInstall02](/Image/RasPiImager_pic/RasPiInstall_02.png)  
 
 OSの書込みを続行する場合は「はい」をクリックします。  
 
-![Etcher03](/Image/Raspbian_pic/Etcher_03.png)  
+![RasPiInstall03](/Image/RasPiImager_pic/RasPiInstall_03.png)  
 
 以上でRaspberry Pi OSのインストールは完了です。  
 
-![Etcher04](/Image/Raspbian_pic/Etcher_04.png)
+![RasPiInstall04](/Image/RasPiImager_pic/RasPiInstall_04.png)
