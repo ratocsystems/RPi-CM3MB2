@@ -25,7 +25,7 @@
    * 基板構成  
      ・ 各部説明
 
-* [Raspberry Pi用OS Raspberry Pi OSのインストール](./Document/Raspbian_Install.md)
+* [Raspberry Pi OSのインストール](./Document/RasPiOS_Install.md)
 
 * [Raspberry Piの基本設定](./Document/Raspbian_Config.md)
   * ローカライゼーションの設定  
