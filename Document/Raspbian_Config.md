@@ -207,8 +207,8 @@ sudo wget https://github.com/ratocsystems/rpi-cm3/raw/master/dts/dt-blob.bin -O 
 
 ![15pin_01](/Image/15pin_pic/01.png)
 
-※ bookworm以降の場合、sudo nano /boot/firmware/config.txt を実行し
-　 以下の設定を追加・保存してOSを再起動してください。
-　 　dtoverlay=cm-swap-i2c0
-　 　dtparam=cam1_reg
- 　　dtparam=cam1_reg_gpio=41
+※ bookworm以降の場合、sudo nano /boot/firmware/config.txt を実行し  
+   以下の設定を追加・保存してOSを再起動してください。  
+     dtoverlay=cm-swap-i2c0  
+     dtparam=cam1_reg  
+     dtparam=cam1_reg_gpio=41  
