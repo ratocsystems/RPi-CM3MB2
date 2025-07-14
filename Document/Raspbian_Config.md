@@ -120,7 +120,7 @@ sudo nano /lib/udev/hwclock-set と入力しファイルを編集します。
 "sudo hwclock -w" :システムの時間をRTCへ書き込む  
 "sudo hwclock -s" :RTCの時間をシステムへ書き込む(スタートアップ時に実行される)  
 
-![RTC_10](/Image/RTC_LED_pic/RTC_10.png)
+![RTC_10-1](/Image/RTC_LED_pic/RTC_10-1.png)
 
 
 #### (2-3) LEDの動作確認  
