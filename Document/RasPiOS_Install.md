@@ -10,7 +10,7 @@ https://www.sdcard.org/jp/downloads/formatter_4/index.html
 
 　eMMCへOSをインストールする場合は、USB micro-B 書込み設定用3PINコネクタの[1-2]をショート(有効)にして書込む必要があります。
 　詳しくは下記URLの「Set up the host device」をご参照ください。
-　https://www.raspberrypi.com/documentation/computers/compute-module.html
+  https://www.raspberrypi.com/documentation/computers/compute-module.html
 
 3) 'SDメモリカードフォーマッター'を使って、SDカードをフォーマットします。
 ファーマット方法につきましては、ダウンロードしたユーザーマニュアルをご参照ください。
