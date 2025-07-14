@@ -8,16 +8,16 @@ Raspberry Pi OSはexFATに対応していませんので、別のツールを使
 SDアソシエーションのダウンロードページから'SDメモリカードフォーマッター'と'ユーザーマニュアル'をダウンロードします。
 https://www.sdcard.org/jp/downloads/formatter_4/index.html
 
-　eMMCへOSをインストールする場合は、USB micro-B 書込み設定用3PINコネクタの[1-2]をショート(有効)にして書込む必要があります。
-　詳しくは下記URLの「Set up the host device」をご参照ください。
-  https://www.raspberrypi.com/documentation/computers/compute-module.html
+　　　eMMCへOSをインストールする場合は、USB micro-B 書込み設定用3PINコネクタの[1-2]をショート(有効)にして書込む必要があります。  
+  　　　詳しくは下記URLの「Set up the host device」をご参照ください。  
+     　　　https://www.raspberrypi.com/documentation/computers/compute-module.html
 
-3) 'SDメモリカードフォーマッター'を使って、SDカードをフォーマットします。
+4) 'SDメモリカードフォーマッター'を使って、SDカードをフォーマットします。
 ファーマット方法につきましては、ダウンロードしたユーザーマニュアルをご参照ください。
 
-4) Raspberry財団公式ホームページよりRaspberry Pi Imager をダウンロードしてインストールします。https://www.raspberrypi.com/software/
+5) Raspberry財団公式ホームページよりRaspberry Pi Imager をダウンロードしてインストールします。https://www.raspberrypi.com/software/
 
-5) Raspberry Pi OSをインストールします。
+6) Raspberry Pi OSをインストールします。
   
 
 Raspberry Pi Imagerを起動し、「Raspberry Piデバイス」「OS」「ストレージ」を選択し「次へ」をクリックします。  
